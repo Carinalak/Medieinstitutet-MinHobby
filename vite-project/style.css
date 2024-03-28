@@ -1,5 +1,12 @@
-
-
+body {
+  background-color: rgb(157, 157, 199);
+}
+.textBox {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+}
 
 
 
