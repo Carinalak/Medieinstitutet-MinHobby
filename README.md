@@ -24,12 +24,13 @@ skriv i Terminalen:
 
 - npm run dev
 
-### Latnund för git kommandon i Terminalen:
+### Lathund för git kommandon i Terminalen:
 - git add .
 
 - git commit -m "Added nav"
 
 - git push
+
 ### NY BRANCH:
 - git checkout -b min-nya-gren
 
@@ -42,7 +43,7 @@ För att pusha den nya branchen till Git Hub skriv:
 För att byta branch:
 - git checkout namn-på-gamla-grenen
 
-För att pusha till branchen om inte git ousg fungerar:
+För att pusha till branchen om inte git push fungerar:
 - git push --set-upstream origin added-image-and-css-styling
 
 eller:
