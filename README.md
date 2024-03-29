@@ -23,3 +23,33 @@ Ni skall ha gjort minst en merge mellan två andra brancher så att det framgår
 skriv i Terminalen:
 
 - npm run dev
+
+### Latnund för git kommandon i Terminalen:
+- git add .
+
+- git commit -m "Added nav"
+
+- git push
+### NY BRANCH:
+- git checkout -b min-nya-gren
+
+För att kolla att branchen har skapats kan man skriva:
+- git branch
+
+För att pusha den nya branchen till Git Hub skriv:
+-git push origin min-nya-gren
+
+För att byta branch:
+- git checkout namn-på-gamla-grenen
+
+För att pusha till branchen om inte git ousg fungerar:
+- git push --set-upstream origin added-image-and-css-styling
+
+eller:
+- git push origin din-gren
+### ---------------------------------------------------
+- git status --decorate --oneline
+
+- git log --decorate --oneline
+
+Tryck på q om du vill avsluta git status eller log.
