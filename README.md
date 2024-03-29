@@ -46,8 +46,10 @@ För att byta branch:
 För att pusha till branchen om inte git push fungerar:
 - git push --set-upstream origin added-image-and-css-styling
 
-eller:
-- git push origin din-gren
+### För att merga din branch med main branche:
+Ställ dig i main-branchen ( git checkout main) Skriv sedan:
+- git merge namn-på-din-gren
+
 ### ---------------------------------------------------
 - git status --decorate --oneline
 
