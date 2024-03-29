@@ -5,9 +5,11 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
- 
 }
 
+h1 {
+  text-align: center;
+}
 #mainContainer {
   background-color: whitesmoke;
   width: 300px;
@@ -23,7 +25,10 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: solid 1px red;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  color: whitesmoke;
 }
 
 footer {
@@ -58,7 +63,6 @@ footer {
     border: solid 1px black;
   }
 }
-
 
 @media screen and (min-width: 800px) {
   #mainContainer {
