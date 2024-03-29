@@ -19,6 +19,12 @@ Ni skall ha gjort rebase på er main så att hela er history i main-branchen är
 
 Ni skall ha gjort minst en merge mellan två andra brancher så att det framgår att det har gjorts en merge (via kommentaren).
 
+## Skärmdumpar av sidan
+
+![Alternativ text](vite-project/img/webpage1.png)
+![Alternativ text](vite-project/img/webpage2.png)
+![Alternativ text](vite-project/img/webpage3.png)
+
 ## För att köra detta projekt:
 skriv i Terminalen:
 
@@ -46,7 +52,7 @@ För att byta branch:
 För att pusha till branchen om inte git push fungerar:
 - git push --set-upstream origin added-image-and-css-styling
 
-### För att merga din branch med main branche:
+### För att merga din branch med main branchen:
 Ställ dig i main-branchen ( git checkout main) Skriv sedan:
 - git merge namn-på-din-gren
 
