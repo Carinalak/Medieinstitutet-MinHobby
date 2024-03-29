@@ -3,10 +3,12 @@ import './style.css'
 
 document.querySelector('#header').innerHTML = `
   <h1>Akvariesidan</h1>
-  <div class="text-box">Jag presenterar de sorter jag har i mitt akvarium.</div>
+  <div class="text-box"><h3>Här är bilder på några av de fiskar jag har i mitt akvarium.</h3></div>
 `
+
+
 document.querySelector('#mainContainer').innerHTML = `
-  
+
 
   <div class="image-box">
     <img class="fish-image" src="img/familjefoto.jpg" alt="fyra akvariefiskar av olika arter tittar in i kameran och ser roliga ut.">
