@@ -3,9 +3,10 @@ import './style.css'
 
 document.querySelector('#header').innerHTML = `
   <h1>Akvariesidan</h1>
+  <div class="text-box">Jag presenterar de sorter jag har i mitt akvarium.</div>
 `
 document.querySelector('#mainContainer').innerHTML = `
-  <div class="text-box">Jag presenterar de sorter jag har i mitt akvarium.<div>
+  
 
   <div class="image-box">
     <img class="fish-image" src="img/familjefoto.jpg" alt="fyra akvariefiskar av olika arter tittar in i kameran och ser roliga ut.">
@@ -32,8 +33,6 @@ document.querySelector('#mainContainer').innerHTML = `
     <img class="fish-image" src="img/goby.jpg" alt="En fin Goby Electric Blue sitter på en sten i ett akvarium">
     <div class="fish-image-text">Gobyn sitter och filosoferar på en sten.</div>
   </div>
-
-
 `
 
 document.querySelector('#footer').innerHTML = `

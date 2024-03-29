@@ -8,14 +8,22 @@ body {
  
 }
 
-.text-box {
+#mainContainer {
   background-color: whitesmoke;
+  width: 300px;
   border-radius: 20px;
   padding: 20px;
-  width: 400px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  border: solid 1px green;
+}
+
+.text-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px red;
 }
 
 footer {
@@ -38,6 +46,41 @@ footer {
   align-items: center;
   flex-direction: column;
 }
+
+@media screen and (min-width: 600px) {
+  #mainContainer {
+    width: 540px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
+
+  .fish-image {
+
+    border-radius: 5px;
+    margin-top: 20px;
+    border: solid 1px black;
+  }
+}
+
+
+@media screen and (min-width: 800px) {
+  #mainContainer {
+    width: 760px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
+
+  .fish-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: solid 1px black;
+  }
+}
+
 
 
 
