@@ -15,12 +15,12 @@ document.querySelector('#mainContainer').innerHTML = `
     <div class="fish-image-text">Fiskarna radar upp sig för gruppfoto.</div>
   </div>
   <div class="image-box">
-    <img class="fish-image" src="img/trevligmatstund.jpg" alt="Tre akvariefiskar äter mat på sanden och den gula Mollyn säger i en pratbubbla, Vilken trevlig matstund vi har tillsammans">
-    <div class="fish-image-text">Den trevliga matstunden.</div>
-  </div>
-  <div class="image-box">
   <img class="fish-image" src="img/goby.jpg" alt="En fin Goby Electric Blue sitter på en sten i ett akvarium">
   <div class="fish-image-text">Gobyn sitter och filosoferar på en sten.</div>
+  </div>
+  <div class="image-box">
+    <img class="fish-image" src="img/trevligmatstund.jpg" alt="Tre akvariefiskar äter mat på sanden och den gula Mollyn säger i en pratbubbla, Vilken trevlig matstund vi har tillsammans">
+    <div class="fish-image-text">Den trevliga matstunden.</div>
   </div>
   <div class="image-box">
     <img class="fish-image" src="img/klunsen.jpg" alt="Foto på en Garra Rufa-fisk som säger i en pratbubbla att han heter Klunsen.">
